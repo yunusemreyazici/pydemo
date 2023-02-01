@@ -1,6 +1,3 @@
-## 
-
-
 #### - first you must open terminal and type this command
 
 ```
@@ -40,4 +37,35 @@ pip install boto3
 
 ```
 pip install tensorflow-macos
+pip install tensorflow-metal
+pip install bayesian-optimization
+pip install gym 
+pip install kaggle
+```
+
+## Accelerated PyTorch training on Mac installation
+
+```
+conda install pytorch torchvision torchaudio -c pytorch-nightly
+
+pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+
+conda install -c apple tensorflow-deps
+
+```
+### - and finally you must run this command
+
+```
+conda install -y jupyter
+conda install pandas-datareader   
+conda install tqdm
+conda install flask
+conda install boto3
+conda install pyyaml
+pip install chardet
+
+conda update -n base -c defaults conda
+
+jupyter lab
+```
 
